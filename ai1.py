@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 st.title("chat bot")
 
-genai.configure(api_key="AIzaSyDCz4iaS2xRP5vEKW0lqQphjbW8G670LCo")  #to get api-key https://aistudio.google.com/app/apikey
+genai.configure(api_key="AIzaSyDi5JC43iLfxYgeoJiA2PqJwkjcrWJQA00")  #to get api-key https://aistudio.google.com/app/apikey
 
 text = st.text_input("enter your question")
 
